@@ -6,7 +6,7 @@
 }
 
 header {
-    padding: 60px;
+    padding: 110px;
     background-color: black;
 }
 
@@ -68,29 +68,119 @@ header {
     transition: 0.4s;
 }
 
+
+.img-destaque{
+    background-image: url(imagens/Background2.png);
+    padding: 30px;
+    background-position: center;
+    background-size: auto;
+
+}
+
 #second-page {
-    padding: 210px;
+    padding: 10rem;
+    flex-wrap: wrap;
+    
 }
 
 #second-page h2 {
     font-size: 25px;
-    margin-left: 10rem;  
-
-
+    
 }
 
 #second-page p {
-    text-align: center;
-    font-size: 20px;
-    margin-left: 10rem;
+    font-size: 18px;
+    
 }
- 
+
 .img-lateral {
-    width: 19vw; 
-    margin-left: 25rem;
-    margin-top: 8rem;
+    height: 580px;
+    width: 420px;
     flex-wrap: wrap;
+    margin-left: 70%;
+    margin-top: -110%;  
+    border-radius: 20px;
+    
+
+
+
+}
+
+
+.img-destaque2{
+    background-image: url(imagens/Background2.png);
+    padding: 30px;
+    background-position: center;
+    background-size: auto;
+    margin-top: 3%;
+    }
+
+
+
+
+#third-page {
+    padding: 7rem;
+    flex-wrap: wrap;
+
+}
+
+#third-page h2 {
+    font-size: 25px;
+}
+
+#third-page p {
+    font-size: 18px;
+}
+
+.img-lateral2 {
+    height: 500px;
+    width: 40%;
+    flex-wrap: wrap;
+    margin-left: 58%;
+    margin-top: -100%;
+    border-radius: 20px;
+}
+
+
+#fourth-section{
+    background-image: url(imagens/Background.svg);
+    padding: 10rem;
+    max-width: 100%;
+
+
+}
+
+#fourth-section h3{
+    color: white;
+    text-align: center;
+    font-size: 34px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
 }
 
 
 
+.footer-contato{
+list-style: none;
+
+}
+
+.footer-contato li{
+    margin-top: 10px;
+    margin-bottom: 5%;
+
+}
+
+.footer-contato li a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 23px;
+}
