@@ -144,8 +144,9 @@ header {
 
 #fourth-section{
     background-image: url(imagens/Background.svg);
-    padding: 10rem;
+    padding: 13rem;
     max-width: 100%;
+    zoom: 105%;
 
 
 }
